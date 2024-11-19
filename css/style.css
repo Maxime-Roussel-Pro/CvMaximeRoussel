@@ -1,9 +1,24 @@
-#prenom{
+#border{
     border: 1px solid red;
 }
 
 
-/*--------------------------Style sur le header */
+/*--------------------------Style sur les parties basique de la page html */
+html , body{
+    height: 100%;
+    overflow: hidden;
+}
+
 header{
     background-color: black;
+    height: 5vh;
+}
+
+footer{
+    height: 15vh;
+}
+
+
+.carousel-inner{
+    height: 80vh;
 }
